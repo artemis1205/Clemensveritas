@@ -14,7 +14,7 @@ import Gun from 'gun'
 // sync with as many peers as you would like by passing in an array of network uris
 export const gun = Gun({
   peers: [
-    'https://relay.peer.ooo/gun'
+    'https://shielded-meadow-64211.herokuapp.com/gun'
   ]
 })
 
